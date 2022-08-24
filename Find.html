@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find</title>
+    <link rel="stylesheet" href="Find.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire|shadow-multiple">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/dc8873d33b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+    <link rel="icon" type="image/x-icon" href="Images\favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tillana&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar">
+        <div><img src="Images\logo.png" class="logo"></div>
+
+        <div class="name font-effect-fire">Stambh</div>
+
+        <div class="right">
+            <a href="Feedback.html" class="tab">Feedback</a>
+            <a href="Find.html" class="tab" id="only">Find</a>
+            <a href="index.html" class="tab">Home</a>
+        </div>
+        <div class="line font-effect-shadow-multiple">Archaelogical Site of India</div>
+        <div><img src="Images\embelm.png" id="emblem"></div>
+    </div>
+    <div class="flex">
+        <div class="left-side">
+            <a>
+                <img src="Images\map.png" usemap="#Locate" id="map">
+                <map name="#Locate">
+                    <area shape="circle" coords="134,219,43" href="#" id="Ra">
+                    <area shape="poly"
+                        coords="208,450,192,468,185,481,186,494,185,512,189,523,203,508,210,493,222,490,222,455"
+                        href="#" id="Tm">
+                    <area shape="poly"
+                        coords="204,154,197,165,188,180,193,192,198,195,206,203,215,209,225,214,238,219,250,219,258,219,262,212,266,205,229,171,219,161,262,198"
+                        href="#" id="UP">
+                    <span id="textid"></span>
+                </map>
+
+            </a>
+        </div>
+        <div class="right-side">
+            <div class="front">
+                <div class="bookup font-effect-shadow-multiple">A Story Of Indian</div>
+                <div id="book">Archaelogy</div>
+                <div><img src="Images\chakra.png" id="chakra"></div>
+                <div class="bookup font-effect-shadow-multiple" id="hin">प्राचीन भारत की अवधारणा</div>
+                <div id="mee">प्रिया मित्तल </div>
+            </div>
+            <div class="Raj">
+                <div class="state">*Rajasthan*</div>
+                <div class="line">Land of Kings</div>
+                <div class="list">
+                    <ul>
+                        <li>Amber Fort,Jaipur</li>
+                        <li>City Palace,Jaipur</li>
+                        <li>Chittorgarh Fort, Chittorgarh</li>
+                        <li>Ranthambore Fort, Sawai Madhopur</li>
+                        <li>Hawa Mahal, Jaipur</li>
+                        <li>Mehrangarh Fort, Jodhpur
+                        </li>
+                        <li>Jaisalmer Fort, Jaisalmer</li>
+                        <li>Kumbhalgarh Fort, Udaipur</li>
+                        <li>Junagarh Fort, Bikaner</li>
+                        <li>Dilwara Jain Temple, Mount Abu</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="Tam">
+                <div class="state">*Tamil Nadu*</div>
+                <div class="line">Land of Temples</div>
+                <div class="list">
+                    <ul>
+                        <li>Brihadeeswarar Temple in Thanjavur</li>
+                        <li>Airavatesvara Temple</li>
+                        <li>GangaikondaCholapuram Temple</li>
+                        <li>Shore Temple of Mahabalipuram</li>
+                        <li>Varaha Cave Temple</li>
+                        <li>The Descent of the Ganges</li>
+                        <li>Lotus City,Madurai</li>
+                        <li>Chidambaram,Cuddalore</li>
+                        <li>Vellore Fort,Vellore</li>
+                        <li>Padmanabhapuram Palace</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="UP">
+                <div class="state">*Uttar Pradesh*</div>
+                <div class="line">The Heartland of India</div>
+                <div class="list">
+                    <ul>
+                        <li>Kashi Vishwanath Temple, Varanasi</li>
+                        <li>Taj Mahal, Agra</li>
+                        <li>Varanasi Ghats</li>
+                        <li>Ram Mandir,Ayodhya</li>
+                        <li>Sarnath Stupa</li>
+                        <li>Deogarh monuments</li>
+                        <li>Buland Darwaza, Fatehpur Sikri</li>
+                        <li>Jhansi Ka Quila</li>
+                        <li>Allahabad Fort</li>
+                        <li>Kumbh Mela</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="bg">
+        <div class="end">
+            <div>
+                <div><img src="Images\logo.png" class="logo" id="logob"></div>
+                <div class="main">About Us</div>
+                <div class="txt2" id="set">We aim to tell the future generations about great monuments and
+                    beauty of
+                    most
+                    oldest
+                    country in the
+                    world, Bharat.</div>
+                <div class="main">Contact Us</div>
+                <div class="txt2">9988776655</div>
+                <div class="txt2">Stambh@gmail.com</div>
+            </div>
+            <div class="mid">
+                <div class="main">Information</div>
+                <div class="txt2">About us</div>
+                <div class="txt2">More Search</div>
+                <div class="txt2">Blogs</div>
+                <div class="txt2">Testimonials</div>
+            </div>
+            <div class="mid">
+                <div class="main">Helpful Links</div>
+                <div class="txt2">Services</div>
+                <div class="txt2">Supports</div>
+                <div class="txt2">Terms and Conditions</div>
+                <div class="txt2">Privacy Policy</div>
+            </div>
+            <div class="mid">
+                <div class="txt2">Subscribe More Info</div>
+                <input type="email" placeholder="Your Email Id" id="search"><br>
+                <button type="Submit" id="btn">Subscribe</button>
+            </div>
+        </div>
+        <hr>
+        <div class="mid">
+            <div class="end2">
+                <i class="fa-brands fa-instagram" id="icon1"></i>
+                <i class="fa-brands fa-facebook" id="icon2"></i>
+                <i class="fa-brands fa-whatsapp" id="icon3"></i>
+                <i class="fa-brands fa-youtube" id="icon4"></i>
+                <div class="txt2" id="bottom">2021@Copyright. All Rights Preserved.</div>
+            </div>
+        </div>
+    </div>
+    <script src="Find.js"></script>
+</body>
+
+</html>

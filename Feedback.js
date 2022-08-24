@@ -18,4 +18,3 @@ btn.addEventListener('click', function handleClick() {
 
 $('#btn').click(function () {
     $('#btn').css({ 'background-color': 'green', 'width': '90px' });
-});

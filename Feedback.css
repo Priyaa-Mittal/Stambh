@@ -247,5 +247,254 @@ hr {
 }
 
 #icon4:hover {
-    color: rgb(243, 23, 23)
-}
+    color: rgb(243, 23, 23)=======body {
+        background-image: url("Images/feedbg.jpg");
+        background-size: cover;
+        background-repeat: no-repeat
+    }
+
+    .logo {
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        margin-top: 1%;
+        margin-left: 1%
+    }
+
+    #logob {
+        margin-top: 7%
+    }
+
+    .left,
+    .navbar {
+        position: fixed;
+        height: 15%;
+        width: 100%;
+        margin-top: -8%;
+        margin-left: -1%;
+        backdrop-filter: blur(8px);
+        background-color: transparent;
+        z-index: 100;
+        display: inline;
+    }
+
+    .right {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-right: 5%;
+        margin-top: -3%
+    }
+
+    #line {
+        margin-left: 39%;
+        color: rgb(215, 199, 201);
+        margin-top: 0.5%;
+        font-family: 'sofia', sans-serif;
+    }
+
+    .name {
+        font-size: 40px;
+        font-family: 'sofia', sans-serif;
+        margin-top: -5%;
+        margin-left: 41%;
+        color: white;
+    }
+
+    #emblem {
+        height: 85px;
+        width: 70px;
+        margin-top: -10%;
+        margin-left: 54%
+    }
+
+    #only {
+        border-bottom: 2px solid rgb(114, 71, 35);
+        color: rgb(255, 200, 137);
+    }
+
+
+    a {
+        text-decoration: none
+    }
+
+    .tab {
+        color: white;
+        margin-left: 2%;
+    }
+
+    .tab:hover {
+        color: rgb(255, 200, 137);
+    }
+
+    .background {
+        height: 73%;
+        width: 35%;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(5px);
+        border: 2px solid black;
+        border-radius: 20px;
+        margin-left: 30%;
+        margin-top: 8%;
+        margin-bottom: 5%
+    }
+
+
+    .content {
+        border: none;
+        border-bottom: 2px solid black;
+        background: transparent;
+        margin: 20px;
+        font-size: 15px;
+        color: white;
+        outline: none;
+    }
+
+    input:focus {
+        outline: none;
+        border-bottom: 2px solid green;
+    }
+
+    ::placeholder {
+        color: rgb(255, 200, 137);
+    }
+
+    .know {
+        display: none
+    }
+
+    .know-btn,
+    .feed-btn {
+        height: 30px;
+        width: 180px;
+        background-color: transparent;
+        font-weight: bold;
+        border: none;
+        color: lightcyan;
+        font-size: 15px;
+        letter-spacing: 2px;
+        margin-top: 30px;
+        margin-bottom: 30px
+    }
+
+    .feed-btn {
+        border-bottom: 2px solid Green
+    }
+
+    .btn {
+        height: 35px;
+        width: 120px;
+        background-color: Green;
+        color: white;
+        font-size: 15px;
+        border-radius: 20px;
+        margin-top: 5%;
+        margin-bottom: 4%;
+        border: none
+    }
+
+    .text {
+        color: lightcyan;
+        margin-top: 10%
+    }
+
+    textarea {
+        background-color: transparent;
+        border: 2px solid black;
+        outline: none;
+        padding: 1%;
+        color: whitesmoke
+    }
+
+    #bg {
+        background-color: black;
+        height: 400px;
+        margin: 0px -10px -20px -10px
+    }
+
+    .end {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+    }
+
+    .main {
+        color: orange;
+        margin: 20px
+    }
+
+    .txt2 {
+        color: grey;
+        margin-left: 20px
+    }
+
+    #set {
+        width: 250px;
+        text-align: justify;
+    }
+
+    .mid {
+        margin-top: 70px
+    }
+
+    hr {
+        margin-top: 30px
+    }
+
+    #search {
+        outline: none;
+        border: none;
+        background: transparent;
+        border: 1px solid rgb(233, 223, 223);
+        margin: 30px 0px 20px 20px;
+        height: 30px;
+        width: 150px;
+        color: lightgrey
+    }
+
+    #btn {
+        margin-left: 50px;
+        background-color: orangered;
+        color: white;
+        height: 30px;
+        width: 80px;
+        border-radius: 5%
+    }
+
+    #bottom {
+        font-size: 10px;
+        margin-right: 20px;
+    }
+
+    .end2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: -5%;
+        color: white;
+        margin-left: 18%
+    }
+
+    #icon1,
+    #icon3,
+    #icon2,
+    #icon4 {
+        margin: 0.5%
+    }
+
+    #icon1:hover {
+        color: rgb(213, 25, 147)
+    }
+
+    #icon3:hover {
+        color: green
+    }
+
+    #icon2:hover {
+        color: rgb(79, 79, 229)
+    }
+
+    #icon4:hover {
+        color: rgb(243, 23, 23) >>>>>>> 2f8c8b64ab2a233475f46b4328f75abf7907d4ef
+    }

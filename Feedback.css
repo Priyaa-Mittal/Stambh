@@ -1,7 +1,9 @@
 body {
-    background-image: url("Images/feedbg.jpg");
+/*     background-image: url("Images/feedbg.jpg");
     background-size: cover;
-    background-repeat: no-repeat
+    background-repeat: no-repeat */
+    
+    background-color:black;
 }
 
 .logo {
